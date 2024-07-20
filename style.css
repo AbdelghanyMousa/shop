@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --orange: #fe4c50 ;
+    --gray:#eceff6;
+    --white:#fff;
+    --dark:#1e1e27;
+
+}
+.bannar{
+    background-image: url('imgs/bannar/slider_1.jpg');
+    background-position: center;
+    height: 100vh;
+}
+/* start bannr */
+.bannarstyle p{
+    font-size: 72px;
+    font-weight: 400;
+    color: var(--dark);
+    line-height: 1;
+    margin-bottom: 46px;
+    
+
+}
+.bannarstyle h6{
+    font-weight:500 ;
+    margin-bottom: 29px;
+    text-transform: uppercase;
+    color: var(--dark);
+
+}
+.bannarstyle button{
+    font-size: 14px;
+    font-weight: 500;
+    background-color: var(--orange);
+    height: 40px;
+    width: 140px;
+    color: var(--white);
+    border: none;
+    text-align: center;
+    border-radius: 3px;
+
+    
+}
+/* end bannr */
